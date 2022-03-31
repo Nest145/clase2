@@ -1,0 +1,39 @@
+
+.nav-link:hover {
+    background-color: grey;
+    color: white;
+} 
+
+.nav-link {
+    color: white;
+} 
+
+.nav-link:hover .fa {
+    transition: all 1s;
+    transform: rotate(360deg);
+    font-size: 20px;
+}
+
+.activo {
+    background-color: grey !important
+}
+
+.color-izq{
+    background-color: rgb(110, 110, 110);
+}
+
+.icono{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.perfil{
+    background-image: url("../img/rengoku-demon-slayer-aura.gif");
+    background-size: cover;
+    background-position: center;
+}
+hr{
+    color: white;
+}
